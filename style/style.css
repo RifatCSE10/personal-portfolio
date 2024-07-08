@@ -380,3 +380,89 @@
   letter-spacing: 0%;
   text-align: left;
 }
+
+/* <===========================================>
+            Summary section start here
+   <===========================================> */
+
+.summary {
+  height: 690px;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.summary > h2 {
+  width: 420px;
+  height: 40px;
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.summary .summary_container {
+  margin-top: 30px;
+  height: 620px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary .summary_container .box_1 {
+  width: 360px;
+  height: 200px;
+}
+
+.summary .summary_container .box_1 h3 {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.summary .summary_container .box_1  h2 {
+  color: rgb(117, 117, 117);
+  margin-top: 10px;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.summary .summary_container   .box_1  b {
+  color: rgb(117, 117, 117);
+  margin-top: 8px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.summary .summary_container .box_1  p {
+  margin-top: 10px;
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.summary .summary_container  .box_1  .straight_line {
+  border: 1px solid rgb(209, 209, 209);
+  margin-top: 24px;
+}
